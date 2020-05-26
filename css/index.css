@@ -48,8 +48,13 @@ table {
 }
 
 header{
-    border: solid orange;
+	border: solid orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
 }
+
 
 .Text1{
     border: solid green;
@@ -60,5 +65,14 @@ header{
 }
 
 footer{
-    border: solid blue;
+	border: solid blue;
+}
+
+.footera{
+	display: flex; 
+	justify-content: space-evenly;
+}
+
+.Copyright{
+	text-align: center;
 }
