@@ -47,6 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	color: white;
+	background: black;
+}
+
+a{
+	color:white; 
+}
+
 header{
 	border: solid orange;
 	display: flex;
@@ -60,8 +69,56 @@ header{
     border: solid green;
 }
 
+.missionstatement{
+	border: solid fuchsia;
+	position: absolute;
+	top: 30%;
+	left: 3%;
+}
+
+.buttons{
+	border: solid gold;
+	position: absolute; 
+	top: 120%;
+    right: 40%;
+	width: 10%;
+}
+
+
+
+.Text1 img{
+	width: 100%;
+	height: auto;
+}
+
+.hfeatures{
+	text-align: center;
+}
+
 .Features{
-    border: solid red;
+	color: black;
+	background: white;
+	border: solid red;
+	display: flex;
+}
+.Features img{
+	border: solid black;
+	display:block; 
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 35%;
+}
+
+.featurestext{
+	border: solid blue;
+	margin-left: 20%;
+
+}
+
+.featurestext2{
+	border: solid blue;
+	margin-right: 20%;
+
 }
 
 footer{
@@ -69,10 +126,12 @@ footer{
 }
 
 .footera{
+	border: solid crimson;
 	display: flex; 
 	justify-content: space-evenly;
 }
 
 .Copyright{
+	border: solid aqua;
 	text-align: center;
 }
