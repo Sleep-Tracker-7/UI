@@ -47,16 +47,26 @@ table {
 	border-spacing: 0;
 }
 
+
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	
+}
+
 body{
-	color: white;
-	background: black;
+	color: #66e0ff;
+	background: #001a33;
+	line-height: 1.5;
 }
 
 a{
-	color:white; 
+	text-decoration: none;
+	color:#66e0ff; 
 }
 
 header{
+	padding: 3%;
 	border: solid orange;
 	display: flex;
 	flex-direction: row;
@@ -72,15 +82,17 @@ header{
 .missionstatement{
 	border: solid fuchsia;
 	position: absolute;
-	top: 30%;
+	top: 35%;
 	left: 3%;
+	width: 45%;
 }
 
 .buttons{
+	background: #001a33; 
 	border: solid gold;
 	position: absolute; 
-	top: 120%;
-    right: 40%;
+	bottom: 1%;  
+    right: 45%;
 	width: 10%;
 }
 
@@ -106,22 +118,23 @@ header{
 	display:block; 
 	margin-left: auto;
   	margin-right: auto;
-  	width: 35%;
+  	width: 30%;
 }
 
 .featurestext{
 	border: solid blue;
-	margin-left: 20%;
-
+	width: 28%;
 }
 
 .featurestext2{
 	border: solid blue;
-	margin-right: 20%;
+	width: 30%; 
+
 
 }
 
 footer{
+	padding: 2%; 
 	border: solid blue;
 }
 

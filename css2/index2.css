@@ -47,12 +47,25 @@ table {
 	border-spacing: 0;
 }
 
+html{
+	font-size: 3.7rem;
+}
+
 body{
 	text-align:center;
+	line-height: 1.5;
 }
 
 header nav {
+	padding: 3%; 
+	background: #001a33;
+	color: #66e0ff;
     border: solid blue;
+}
+
+header a{
+	text-decoration: none;
+	color: #66e0ff;
 }
 
 .team {
@@ -72,10 +85,13 @@ header nav {
 }
 
 footer{
+	background: #001a33;
+	color: #66e0ff;
+	padding: 3%;
     border: solid orange;
 }
 
-header{
-
+footer a{
+	text-decoration: none;
+	color: #66e0ff;
 }
-
