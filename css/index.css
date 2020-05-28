@@ -47,11 +47,13 @@ table {
 	border-spacing: 0;
 }
 
+.test{ 
+	width: 100%;
+}
 
 html{
 	font-family: 'Roboto', sans-serif;
-	font-size: 3rem;
-	
+	font-size: 3rem;	
 }
 
 body{
@@ -74,6 +76,9 @@ header{
 	
 }
 
+header nav{
+	border: solid red;
+}
 
 .Text1{
     border: solid green;
@@ -128,9 +133,7 @@ header{
 
 .featurestext2{
 	border: solid blue;
-	width: 30%; 
-
-
+	width: 50%; 
 }
 
 footer{
@@ -147,4 +150,76 @@ footer{
 .Copyright{
 	border: solid aqua;
 	text-align: center;
+}
+
+@media(max-width: 800px){
+	.test{ 
+		width: 1000px;
+	}
+header {
+	text-align: center;
+	flex-direction: column;
+}
+
+header nav{ 
+	display: flex; 
+	flex-direction: column;
+}
+
+.missionstatement{
+	border: solid fuchsia;
+	position: absolute;
+	top: 60%;
+	left: 3%;
+	width: 100%;
+}
+
+.buttons{
+	text-align: center;
+	background: #001a33; 
+	border: solid gold;
+	position: absolute; 
+	bottom: -25%;   
+	right: 5%;
+	width: 50%;
+}
+
+.Features img{
+	width: 40%;
+}
+
+.footera{
+	flex-direction: column;
+	text-align: center;
+}
+}
+
+@media(max-width: 500px){
+	.buttons{
+		text-align: center;
+		background: #001a33; 
+		border: solid gold;
+		position: absolute; 
+		bottom: -25%;   
+		left: 85%;
+		width: 50%;
+	}
+}
+
+@media(max-width: 350px){
+	.test{
+		width: 800px; 
+	}
+}
+
+@media(max-width: 200px){
+	.test{
+		width: 500px;
+	}
+}
+
+@media(max-width: 100px){
+	.test{
+		width: 300px;
+	}
 }
