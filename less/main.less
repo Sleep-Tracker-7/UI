@@ -1,0 +1,89 @@
+
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 3rem;
+	body{
+		color: @skybluey;
+		background: @bgdarkbluey;
+		line-height: 2;
+		}
+}
+
+.Text1 img{
+	.position2(0, 0, 0, 0, 100%);
+	height: auto;
+}
+.missionstatement{
+	.positioning(absolute, 35%, 0, 3%, 0, 45%);
+}
+.buttons{
+	border: solid @bluevio;
+	background: @bgdarkbluey; 
+	.positioning(absolute, 0, 1%, 0, 45%, 10%);
+}
+
+.hfeatures{
+	.textali();
+}
+
+.Features{
+	color: @blackey;
+	background: @whitey;
+	.display(flex);
+}
+.Features img{
+	.display(block);
+	.marginlf();
+	  .position2(0, 0, 0, 0, 30%);
+}
+.featurestext{	
+	.position2(0, 0, 0, 0, 28%);
+}
+.featurestext2{
+	.position2(0, 0, 0, 0, 50%);
+}
+
+
+
+@media @tablet {
+.test{ 
+		.position2(0, 0, 0, 0, 1000px);
+	}
+header {
+	.textali();
+	.flexdirection();
+}
+
+header nav{ 
+	.display(flex, column);
+}
+
+.missionstatement{
+	top: 60%;
+	left: 3%;
+	width: 100%;
+	.position2(60%, 0, 3%, 0, 100%);
+}
+
+.buttons{
+	.textali();
+	background: @bgdarkbluey; 
+	border: solid @goldey;
+	.position2(0,-25%, 0, 5%, 50%);
+}
+}
+
+.Features img{
+	.position2(0,0,0,0,40%);
+}
+
+.footera{
+	.flexdirection();
+	.textali();
+}
+@media @mobile {
+	.buttons{
+		.textali();  
+		.position2(0, 0, 85%, 0);
+	}
+}
