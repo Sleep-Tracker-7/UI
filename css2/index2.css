@@ -56,9 +56,12 @@ body{
 	line-height: 1.5;
 }
 
-header nav {
-	padding: 3%; 
+header{ 
 	background: #001a33;
+	padding: 3%; 
+}
+
+header nav { 
 	color: #66e0ff;
     border: solid blue;
 }
