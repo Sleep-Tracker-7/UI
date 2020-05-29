@@ -1,0 +1,39 @@
+.textdeco{
+    text-decoration: none;
+}
+
+.textali{
+    text-align: center;
+}
+
+.marginlf{
+    margin-left: auto;
+  	margin-right: auto;
+}
+
+.flexdirection{
+    flex-direction: column;
+}
+
+.display(@cssbox, @flexdir, @justify){
+    display: @cssbox;
+    flex-direction: @flexdir;
+    justify-content: @justify;
+}
+
+.positioning(@pos, @top, @bot, @left, @right, @width;){
+    position : @pos;
+    top: @top; 
+    bottom: @bot;
+    left : @left;
+    right: @right;
+    width: @width;
+}
+
+.position2(@top2, @bot2, @left2, @right2, @width2){
+    top:@top2;
+    bottom: @bot2;
+    left : @left2;
+    right: @right2;
+    width: @width2;
+}

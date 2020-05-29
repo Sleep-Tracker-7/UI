@@ -1,0 +1,39 @@
+html{
+	.fontsiz(3.7rem);
+body{
+	.textali();
+	.lineheight(1.5);
+}
+}
+
+.members img{ 
+	.width(50%);
+	height: auto;
+}
+.caption{
+	.display(block);
+}
+
+@media @tablet{
+ a, h1, span{
+	.fontsiz(60%);
+}
+
+nav{
+	.display(flex, column);
+}
+body{
+	.lineheight(1);
+}
+}
+@media @mobile{
+    a, h1, span{
+	.fontsiz(40%);
+}
+	.members img{
+		.width(80%);
+}
+	body{
+		.lineheight(1.2);
+}
+}

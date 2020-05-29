@@ -1,0 +1,243 @@
+a {
+  text-decoration: none;
+  color: #66e0ff;
+}
+.textdeco {
+  text-decoration: none;
+}
+.textali {
+  text-align: center;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header header nav {
+  border: solid red;
+}
+footer {
+  padding: 2%;
+}
+footer .footera {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .Copyright {
+  text-align: center;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+}
+html body {
+  color: #66e0ff;
+  background: #001a33;
+  line-height: 2;
+}
+.Text1 img {
+  width: 100%;
+  height: auto;
+}
+.missionstatement {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  width: 45%;
+}
+.buttons {
+  border: solid blueviolet;
+  background: #001a33;
+  position: absolute;
+  bottom: 1%;
+  right: 45%;
+  width: 10%;
+}
+.hfeatures {
+  text-align: center;
+}
+.Features {
+  color: black;
+  background: white;
+  display: flex;
+}
+.Features img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.featurestext {
+  width: 28%;
+}
+.featurestext2 {
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .test {
+    width: 1000px;
+  }
+  header {
+    text-align: center;
+    flex-direction: column;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .missionstatement {
+    top: 60%;
+    left: 3%;
+    width: 100%;
+  }
+  .buttons {
+    text-align: center;
+    background: #001a33;
+    border: solid gold;
+    bottom: -25%;
+    right: 5%;
+    width: 50%;
+  }
+  .Features img {
+    width: 40%;
+  }
+  .footera {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .buttons {
+    text-align: center;
+    left: 85%;
+  }
+}
