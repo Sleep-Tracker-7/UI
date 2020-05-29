@@ -56,9 +56,12 @@ body{
 	line-height: 1.5;
 }
 
-header nav {
-	padding: 3%; 
+header{ 
 	background: #001a33;
+	padding: 3%; 
+}
+
+header nav { 
 	color: #66e0ff;
     border: solid blue;
 }
@@ -76,7 +79,7 @@ header a{
 }
 
 .members img{ 
-	width: 30%;
+	width: 50%;
 	height: auto;
 }
 
@@ -94,4 +97,30 @@ footer{
 footer a{
 	text-decoration: none;
 	color: #66e0ff;
+}
+
+@media(max-width: 800px){
+ a, h1, span{
+	font-size: 60%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+}
+body{
+	line-height: 1;
+}
+}
+@media(max-width: 500px){
+	a, h1, span{
+		font-size: 40%;
+	}
+	.members img{
+		width: 80%;
+	}
+
+	body{
+		line-height: 1.2;
+	}
 }
