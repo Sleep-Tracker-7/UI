@@ -100,9 +100,13 @@ footer a{
  a, h1, span{
 	font-size: 60%;
 }
+
 nav{
 	display: flex;
 	flex-direction: column;
+}
+body{
+	line-height: 1;
 }
 }
 @media(max-width: 500px){
@@ -111,5 +115,9 @@ nav{
 	}
 	.members img{
 		width: 80%;
+	}
+
+	body{
+		line-height: 1.2;
 	}
 }
